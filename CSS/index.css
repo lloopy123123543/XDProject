@@ -1,0 +1,423 @@
+.header{
+    width: 100%;
+    display: flex;
+    height: 80px; 
+    justify-content: center;
+}
+.header_row{
+    width: 320px;
+    height: 100%;
+    display: flex;
+    font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+justify-content: space-evenly;
+align-items: center;
+color: #697CA6;
+}
+.menu_decor1{
+    position: absolute;
+    z-index: 2;
+    margin-left: 60%;
+    margin-top:300px
+}
+.menu_decor2{
+    position: absolute;
+    z-index: 2;
+    margin-left: -60%;
+    margin-top:-300px
+}
+.header_logo{
+    align-items: center;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    background: url("../IMAGES/tqdExl8E2OI.jpg");
+    background-size: cover;
+}
+
+.header_col{
+
+}
+.header_col:hover{
+    cursor: pointer;
+    color: #5E81FE;
+}
+.main_menu{
+    width: 100%;
+    min-height: 570px auto;
+    background: linear-gradient(180deg, #F4F7FF 0%, #F1F5FF 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu_block{
+    z-index: 3;
+    width: 80%;
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.menu_block_top{
+    font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 12px;
+/* identical to box height */
+
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+color: #3D4F9F;
+}
+.menu_block_medium{
+    margin-top: 20px;
+    display: flex;
+    font-family: 'Quicksand';
+font-style: normal;
+font-weight: 300;
+font-size: 48px;
+line-height: 60px;
+flex-wrap: wrap;
+/* identical to box height */
+
+text-align: center;
+align-items: center;
+
+color: #3D4F9F;
+}
+.menu_block_medium_text{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 60px;
+}
+.productivity{
+    font-family: 'Ubuntu', sans-serif, bold;
+    font-weight: 400;
+    text-align: center;
+}
+.menu_block_bottom{
+    margin-top: 40px;
+    width: 70%;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 29px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #8D96BD;
+}
+.menu_block button{
+    margin-top: 30px ;
+    padding: 3px;
+    border: 0px solid #3D4F9F;
+    font-family: 'Quicksand';
+    color: #3D4F9F;
+    width: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: white;
+    box-shadow: 3px 3px 0px #3D4F9F;
+    
+    transition: 0.25s;
+}
+.menu_block button:hover{
+    box-shadow: 7px 7px 0px #3D4F9F;
+}
+.connect{
+    width: 100%;
+    height: auto;
+    min-height: 332px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.connect_text{
+    max-width:25%;
+    min-width: 250px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: baseline;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.connect_title{
+    width: 100%;
+    font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+text-align: left;
+/* identical to box height */
+
+
+color: #3D4F9F;
+}
+.connect_sub{
+width: 100%;
+margin-top: 10px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 27px;
+letter-spacing: 0.03em;
+text-align: left;
+color: #8D96BD;
+}
+.connect_callBack{
+    max-width: 25%;
+    min-width: 320px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.connect_callBack input{
+    margin-top: 10px;
+    width: 279px;
+    height: 59px;
+    background: #EFEFF7;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    border-radius: 4px;
+
+    
+border: 1px solid white;
+}
+.connect_callBack button{
+    margin-top: 10px;
+    width: 184px;
+height: 59px;
+    background: #4D6CE1;
+border-radius: 5px;
+text-align: center;
+color: white;
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 16px;
+border:0px solid #4D6CE1;
+transition: .25s;
+cursor: pointer;
+}
+.connect_callBack button:hover{
+
+    background: #224eea;
+}
+.plan{
+    width: 100%;
+    min-height: 447px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(229.32deg, #6888FF 12.77%, #5E80FF 73.11%);
+}
+.plan_decor{
+    width: 80%;
+    position: absolute;
+    margin-left: -30%;
+}
+
+.plan_block{
+    z-index: 3;
+    width: 80%;
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.plan_block_top{
+    font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 12px;
+/* identical to box height */
+
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+color: white;
+}
+.plan_block_medium{
+    margin-top: 20px;
+    display: flex;
+    font-family: 'Quicksand';
+font-style: normal;
+font-weight: 300;
+font-size: 48px;
+line-height: 60px;
+flex-wrap: wrap;
+justify-content: center;
+/* identical to box height */
+
+text-align: center;
+align-items: center;
+
+color: white;
+}
+.plan_block_medium_text{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 60px;
+}
+.productivity{
+    font-family: 'Ubuntu', sans-serif, bold;
+    font-weight: 400;
+    text-align: center;
+}
+.plan_block_bottom{
+    margin-top: 40px;
+    width: 70%;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 29px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: white;
+}
+.plan_block button{
+    margin-top: 30px ;
+    padding: 3px;
+    font-family: 'Quicksand';
+    color: #3D4F9F;
+    min-width: 100px;
+    border-radius: 0px;
+    cursor: pointer;
+    background-color: white;
+    box-shadow: 3px 3px 0px #3D4F9F;
+    border: 3px solid #5C79FB;
+    
+    transition: 0.25s;
+}
+.plan_block button:hover{
+    box-shadow: 6px 6px 0px #3D4F9F;
+}
+
+.how_to_start{
+    width: 100%;
+    min-height: 650px;
+    background:#F2F5FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.how_to_start_block{
+    width: 85%;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: white;
+    gap: 40px;
+}
+.how_to_start_images{
+    max-width: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0px;
+}
+.hts_first_image{
+    width: 320px;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hts_second_images{
+    width: 33%;
+
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.hts_image{
+    width: 126px;
+    height: 126px;
+    background: 		linear-gradient(rgba(135, 60, 255, 0.4), rgba(135, 60, 255, 0.0) 80%),
+    linear-gradient(-45deg, rgba(120, 155, 255, 0.9) 25%, rgba(255, 160, 65, 0.9) 75%);;
+    border-radius: 5px;
+}
+.hts_head_image{
+    width: 80%;
+    height: 272px;
+    border-radius: 5px;
+    background: linear-gradient(135deg, #e55d87 0%, #5fc3e4 100%);
+}
+
+.how_to_start_text{
+    width: 30%;
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.hts_title{
+    width: 90%;
+    font-family: 'Quicksand';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 45px;
+color: #3D4F9F;
+}
+.hts_subtext{
+    width: 90%;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 27px;
+letter-spacing: 0.03em;
+
+color: #8D96BD;
+
+}
+.hts_buttons button{
+    width: 113px;
+height: 43px;
+border: 0px solid white;
+    background: #D2E1FF;
+    border-radius: 2px; 
+    font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 16px;
+color: #3A79FF;
+}
